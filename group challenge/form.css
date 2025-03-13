@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+.form-box{
+    width: 100%;
+    max-width: 460px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;padding: 12px;
+    justify-content: center;
+   
+    
+    
+}
+.input1{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+label{
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: white;
+}
+input{
+   width: 90%;
+    height: 26px;
+    padding: 12px;
+    margin-bottom: 20px;
+    outline: 2px solid white;
+    border-radius: 6px;
+    border: none;
+    background-color: darkslategray;
+    color: white;
+}
+lab
+button{
+    width: 60%;
+}
+#email{
+    margin-right:11px;
+ 
+}
+#emai{
+    transform: translateY(10px);
+    width: 83%;
+}
+.input2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+}
+select{
+    width:100%;
+    border-radius: 10px;
+    height: 35px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color:lightsteelblue;
+    color: black;
+    padding: 10px;
+}
+button{
+    background-color: #007bff;
+    width: 80px;
+    margin-left: 45%;
+    height: 35px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #0056b3;
+    border-radius: 10px;
+}
+#file{
+    background-color: burlywood;
+    height: 100%;
+    margin-left: 20px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 40px;
+    margin-top: 25px;
+    text-transform: lowercase;
+    text-align: center;
+    color: white;
+    font-size: 2.7em;
+}
